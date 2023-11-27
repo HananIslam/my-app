@@ -1,0 +1,25 @@
+.QualitiesMainContainer{
+    background-color: rgb(241, 241, 241);
+    margin: -80px 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.qualities{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.qualities img{
+    width: 50px;
+}
+
+.heading{
+font-weight: 600;
+}
+
+.description{
+    text-transform:uppercase;
+}

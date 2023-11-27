@@ -1,0 +1,31 @@
+.parentContainer {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 40px);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  gap: 20px;
+}
+.profileImageContainer img {
+  border-radius: 50%;
+  width: 80px;
+}
+
+.otherContentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.heading{
+    font-weight: 600;
+}
+
+.description{
+}
+
+.starsContainer img {
+  width: 150px;
+}

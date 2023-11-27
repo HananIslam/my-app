@@ -1,0 +1,51 @@
+.parentContainer {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.productTitle {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 10px 10px 0 0;
+}
+
+.imageContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  padding: 50px 0;
+}
+
+.reviewsContainer {
+  /* background-color: green; */
+  width: calc(100% - 60px);
+  padding: 0 30px;
+  margin-top: -25px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buttonContainer {
+  width: 100%;
+}
+
+.buttonContainer button {
+  width: calc(100% - 60px);
+  margin: 30px;
+  background-color: orange;
+  height: 50px;
+  border: none;
+}
+
+.productDesription {
+  width: calc(100% - 60px);
+  margin: 30px;
+}
